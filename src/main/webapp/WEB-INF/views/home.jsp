@@ -1,10 +1,17 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <html>
 <head>
 	<title>Home</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<style>
+	
+	
+	
+	
+/* menu */	
 * { margin: 0; padding: 0; }
 body {font-family: Arial, Tahoma, sans-serif; font-size: 11px; color: #232323; }
 
@@ -37,50 +44,50 @@ html[xmlns] .clearfix { display: block; }
 </style>
 </head>
 <body>
+<img src="/moasis/res/banner/banner.png" width="100%"/>
+
 <div class="wrap">
 	<ul id="nav">
-		<li><a href="#">Homepage</a></li>
-		<li><a href="#">About the Mag</a>
-			<ul>
-				<li><a href="#">Company</a></li>
-				<li><a href="#">Authors</a></li>
-				<li><a href="#">Write for Us?</a></li>
-				<li><a href="#">Advertising</a></li>
-				<li><a href="#">Get in Touch</a></li>
-			</ul>
+		<li><a href="#">메인</a></li>
+		<li><a href="#">음악 뉴스</a>
+<!-- 			<ul> -->
+<!-- 				<li><a href="#">Company</a></li> -->
+<!-- 				<li><a href="#">Authors</a></li> -->
+<!-- 				<li><a href="#">Write for Us?</a></li> -->
+<!-- 				<li><a href="#">Advertising</a></li> -->
+<!-- 				<li><a href="#">Get in Touch</a></li> -->
+<!-- 			</ul> -->
 		</li>
-		<li><a href="#">Freebies</a>
+		<li><a href="#">장르</a>
 			<ul>
-				<li><a href="#">PSD</a></li>
-				<li><a href="#">AI Vectors</a></li>
-				<li><a href="#">Patterns</a></li>
-				<li><a href="#">Icons</a></li>
+				<li><a href="#">발라드</a></li>
+				<li><a href="#">힙합</a></li>
+				<li><a href="#">인디</a></li>
+				<li><a href="#">클래식</a></li>
 			</ul>			
 		</li>
-		<li><a href="#">Tutorials</a>
+		<li><a href="#">전체 인기 곡</a>
 			<ul>
-				<li><a href="#">HTML5</a></li>
-				<li><a href="#">CSS3</a></li>
-				<li><a href="#">jQuery</a></li>
-				<li><a href="#">PHP MySQL</a></li>
-				<li><a href="#">Ruby on Rails</a></li>
+				<li><a href="#">발라드</a></li>
+				<li><a href="#">힙합</a></li>
+				<li><a href="#">인디</a></li>
+				<li><a href="#">클래식</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Web Tools</a>
+		<li><a href="#">커버곡 영상</a>
 			<ul>
-				<li><a href="#">Performance</a></li>
-				<li><a href="#">Browser Testing</a></li>
-				<li><a href="#">CMS Plugins</a></li>
-				<li><a href="#">Cheat Sheets</a></li>
-			</ul>
+				<li><a href="#">발라드</a></li>
+				<li><a href="#">힙합</a></li>
+				<li><a href="#">인디</a></li>
+				<li><a href="#">클래식</a></li>
+			</ul>		
 		</li>
-		<li><a href="#">Originals</a>
+		<li><a href="#" style="font-size: 20px;">≡</a>
 			<ul>
-				<li><a href="#">Website Design</a></li>
-				<li><a href="#">Mobile</a></li>
-				<li><a href="#">User Interface</a></li>
-				<li><a href="#">Freelancing</a></li>
-				<li><a href="#">Inspiration</a></li>
+				<li><a href="/moasis/login">로그인</a></li>
+				<li><a href="#">회원가입</a></li>
+				<li><a href="#">고객센터</a></li>
+				<li><a href="#">만든이 소개</a></li>
 			</ul>
 		</li>
 	</ul>
